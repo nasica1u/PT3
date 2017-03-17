@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<title> ObjectConnecte </title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<form id="addRunner" name="addRunner" action="put_entree.php" method="POST">
+			Entrée 1: <input type="text" name="txtFirstName" id="txtFirstName"> <br>
+			Entrée 2: <input type="text" name="txtLastName" id="txtLastName"> <br>
+			<!--Genre: <select id="ddlGenre" name="ddlGenre">
+				<option value="">--Sélectionnez--</option>
+				<option value="f">Femme</option>
+				<option value="m">Homme</option>
+			</select><br>
+			
+			Temps:
+			<input type="text" name="txtMinutes" id="txtMinutes" size="10" maxlength="2"> (minutes)
+			<input type="text" name="txtSecondes" id="txtSecondes" size="10" maxlength="2"> (secondes)
+			-->
+			<button type="submit" name="btnSave" id="btnSave">Envoyer</button>
+			<input type="hidden" name="action" value="addRunner" id="action">
+		</form>
+		
+		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/my_scripts.js"></script>
+	</body>
+
+</html>
