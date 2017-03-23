@@ -18,7 +18,6 @@ public class TileMap extends JFrame implements Runnable {
     
     private Afficheur af;
     
-    
     public TileMap(String title){
         super(title);
         af = new Afficheur();
