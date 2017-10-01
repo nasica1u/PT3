@@ -5,7 +5,7 @@ FREE
  Mot de passe : eighenoo
 
 Evelyne VITTORI
-TÃ©l. : +33 (0)4 95 45 01 86
+Tél. : +33 (0)4 95 45 01 86
 Courriel : vittori@univ-corse.fr
 
 Univ corse:
@@ -14,7 +14,7 @@ Mot de passe : BjDU2NgJ
 
 591d6e109edb8
 
-10 juillet andrÃ© 0675291125
+10 juillet andré 0675291125
 fixe 0495507449
 autre 86751811
 colloc 0614254268
@@ -56,7 +56,7 @@ brahim.belcaid@hotmail.com
 olcadan2b@hotmail.fr
 kokzck112233
 
-DÃ©tection des monstres avec la coordonnÃ©e Y Ã  ajouter (pas seulement
+Détection des monstres avec la coordonnée Y à ajouter (pas seulement
 les X)
 
 _nutela
@@ -71,18 +71,18 @@ _fromage
 _saucisses
 _charcut
 _yaourt
-_pÃ¢tes
+_pâtes
 _sauce
 _apperitifs
 
-_lÃ©gumes
+_légumes
 _cordon bleu
 _saucisses
 _fruits
 _yaourt
 _lait
 _fromage
-_sauce + concentrÃ©
+_sauce + concentré
 _gateaux/petit dej (pain choco/madelaines)
 _oignons
 _pain
@@ -90,15 +90,15 @@ _biscottes
 _confiture
 _oeuf
 _charcuterie (museau saucisson)
-_pÃ¢tes + riz
+_pâtes + riz
 _jambon
 _beurre
-_apÃ©ritifs
+_apéritifs
 
-_combot: lentilles + carottes + saucisses + champignons + concentrÃ© tomate
+_combot: lentilles + carottes + saucisses + champignons + concentré tomate
 		=>>>>>>>>>>>> OIGNON + LARD/lardons
 
-_cafÃ©
+_café
 _pain
 _fromage
 _yaourt (yop)
@@ -119,7 +119,7 @@ leclosdesoliviers@laposte.net
 
 8N0420029931-8
 
-40 lumositÃ© , 50 contraste , 2 gamma
+40 lumosité , 50 contraste , 2 gamma
 
 76: main
 37: snd
@@ -135,4 +135,7 @@ M2 24/09 G0 (2.20)
 M4 26/09 G0 (??)
 M8 27/09 G23.2 (2.90)
 M2 28/09 G0 (2.40)
-TOTAL 21.0
+M4 29/09 G0 (2.35)
+M8 30/09 G0 (2.55)
+M16 01/09 G? ()
+TOTAL -5.0
