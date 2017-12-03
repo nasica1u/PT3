@@ -1,0 +1,122 @@
+/*En-tête*/
+header{
+	width: 90vw;
+	height: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #aaa;
+	background-color: #3A8EBA;
+	padding: 5px;
+	border-radius: 7px;
+}
+/*Titre principal*/
+#titre01{
+	position: relative;
+	top: 10px;
+	margin-left: 20px;
+	color: #2C75FF;
+	font-family: "Lucida Console", Garamond, Arial;
+	font-size: 10vmin;
+	font-size: 10vmaw;
+}
+/*Barre de navigation*/
+#menuNav{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 180px;
+
+}
+#menuNav ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menuNav li{
+   background-color:#729EBF; 
+   background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+   border-radius: 6px;
+   margin-bottom:2px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #333A40;
+   max-height:0;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menuNav a{
+	color: #2C75FF;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid #aaa;
+	background-color: lightgrey;
+	border-radius: 10px;
+	font-size: 3vmin;
+	font-size: 3vmaw;
+}
+#menuNav a:hover{
+	background-color: orange;
+}
+#first a{
+	border-radius: 7px 0 0 7px;
+}
+#last a{
+	border-radius: 0 7px 7px 0;
+	overflow: hidden;
+}
+/*Affichage de la rubrique en cours*/
+#rubrique{
+	position: absolute;
+	top: 10vh;
+	margin-left: 10px;
+	color: black;
+	font-family: "Lucida Console", Garamond, Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*Fin en-tête*/
+/*Corps de la page*/
+#corps{
+	width: 90vw;
+	border: 2px solid #aaa;
+	background-color: #E4E4E4;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border-radius: 7px;
+}
+/*Fin du corps*/
+/*Multicolonne*/
+.newspaper {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+/*Fin Multcolone*/ 
+/*Pied de la page*/
+#piedPage{
+	width: 90vw;
+	height: 8vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border: 2px solid #aaa;
+	background-color: #3A8EBA;
+	border-radius: 5px;
+}
+
+#mLegales{
+	margin-left: 35vw;
+	font-family: "Lucida Console", Garamond, Arial;
+	font-size: 12px;
+	font-style: italic;
+	color: lightgrey;
+}
+/*Fin du pied*/

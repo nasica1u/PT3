@@ -1,0 +1,162 @@
+/*En-tête*/
+header{
+	width: 90vw;
+	height: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #aaa;
+	background-color: #3A8EBA;
+	padding: 5px;
+	border-radius: 7px;
+}
+p {
+	font-size: 9vm;
+	font-family: trebuchet, helvetica, sans-serif;
+ }
+ 
+ p.error{
+	 color: red;
+	 
+}
+#error{
+	color: red;
+}
+/*Titre principal*/
+#titre01{
+	text-align: center;
+	margin-top: 5.4vh;
+	color: #2C75FF;
+	font-family: trebuchet, helvetica, sans-serif;
+	font-size: 10vmin;
+	font-size: 10vmaw;
+}
+/*Barre de navigation*/
+#menuNav{
+	position: absolute;
+    margin-left: 4%;
+    margin-right: 0;
+	top: 11vh;	
+}
+#menuNav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menuNav li{
+	/* Bascule les boutons à l'horizontale*/
+	float: left;
+}
+#menuNav a{
+	color: #2C75FF;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid #aaa;
+	background-color: lightgrey;
+	border-radius: 10px;
+	font-size: 3vmin;
+	font-size: 3vmaw;
+}
+#menuNav a:hover{
+	background-color: orange;
+	color: black;
+}
+#first a{
+	border-radius: 7px 0 0 7px;
+}
+#last a{
+	border-radius: 0 7px 7px 0;
+}
+/*Affichage de la rubrique en cours*/
+#rubrique{
+	position: absolute;
+	top: 10vh;
+	margin-left: 10px;
+	color: black;
+	font-family: trebuchet, helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*Fin en-tête*/
+/*Corps de la page*/
+#corps{
+	width: 90vw;
+	border: 2px solid #aaa;
+	background-color: #E4E4E4;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border-radius: 7px;
+}
+/*Fin du corps*/
+/*Multicolonne*/
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+/*Fin Multcolone*/ 
+/*Pied de la page*/
+#piedPage{
+	width: 90vw;
+	height: 8vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border: 2px solid #aaa;
+	background-color: #3A8EBA;
+	border-radius: 5px;
+}
+
+#mLegales{
+	margin-left: 35vw;
+	font-family: trebuchet, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: lightgrey;
+}
+/*Fin du pied*/
+/* Inputs */
+input[type=text], [type=password], [type=date], [type=tel], [type=email]{
+    background-color: #3A8EBA;
+    color: white;
+	border-radius: 7px;
+}
+input[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=tel]:focus, [type=email]:focus {
+    background-color: white;
+	border: 3px solid #555;
+	color: black;
+}
+textarea {
+    width: 99%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #3A8EBA;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 6px;
+}
+
+.Lists{
+	background: #3A8EBA;
+	list-style-type: lower-alpha;
+	padding: 10px 10px;
+}

@@ -1,0 +1,8 @@
+#menuNav, #footer, #rubrique, #piedPage, aside{
+    display:none;
+  }
+
+body {
+    font-size:120%;
+    color:black;
+ }
